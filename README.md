@@ -19,4 +19,6 @@ vim /etc/security/limits.conf
 ```
 [https://www.cnblogs.com/lenmom/p/9773093.html](https://www.cnblogs.com/lenmom/p/9773093.html)
 
-2. 需要修改baseline，在任意GPU上运行
+✅ 2. 需要修改baseline，在任意GPU上运行
+
+3. 修改Test部分代码，生成连续图片并按类分好
