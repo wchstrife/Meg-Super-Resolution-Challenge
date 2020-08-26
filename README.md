@@ -4,14 +4,14 @@
 
 ## TODO
 
-1. 一次性open太多文件超过linux系统限制
+✅ 1.  一次性open太多文件超过linux系统限制
 
 > OSError: [Errno 24] Too many open files
 
 root权限下
 ```bash
 vim /etc/security/limits.conf  
-#在最后加入  
+# 在最后加入  
 * soft nofile 4096  
 * hard nofile 4096
 # 或
