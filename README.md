@@ -21,4 +21,6 @@ vim /etc/security/limits.conf
 
 ✅ 2. 需要修改baseline，在任意GPU上运行
 
-3. 修改Test部分代码，生成连续图片并按类分好
+✅3. 修改Test部分代码，生成连续图片并按类分好
+
+4.修复Test部分测试图片的缺漏
